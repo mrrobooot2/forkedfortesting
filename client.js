@@ -2827,7 +2827,7 @@ var Client = (function() {
 
     function getServerList(_srv) {
 
-        var lobbyList = 'https://80805c1a-bb6c-4722-8d4e-d84202970bf7-00-l9w6q2uc8v9w.spock.replit.dev/list';
+        var lobbyList = 'https://pjzw74-8080.csb.app/list';
     
         let header = {'Accept': 'application/json', "Origin": "https://devast.io"};
     
@@ -8567,8 +8567,8 @@ var Home = (function() {
         
         var _srv = document.getElementById('servers').value, lobFind, lobID;
         
-        _srv    == 'auto' ? (lobFind = 'https://80805c1a-bb6c-4722-8d4e-d84202970bf7-00-l9w6q2uc8v9w.spock.replit.dev/find',
-        lobID   = { 'game_modes': [srvMode] }) : (lobFind = 'https://80805c1a-bb6c-4722-8d4e-d84202970bf7-00-l9w6q2uc8v9w.spock.replit.dev/join',
+        _srv    == 'auto' ? (lobFind = 'https://pjzw74-8080.csb.app/find',
+        lobID   = { 'game_modes': [srvMode] }) : (lobFind = 'https://pjzw74-8080.csb.app/join',
         lobID   = { 'lobby_id': _srv });
         
         let header = {};
